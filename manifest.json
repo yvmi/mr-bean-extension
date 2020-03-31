@@ -1,0 +1,13 @@
+{
+  "name": "Mr. Beans Picture",
+  "version": "1.0",
+  "description": "This extension changes your pictures in the browser to a face of Mr. Bean to lighten your mood.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"]
+    }
+  ],
+  "permissions": ["activeTab"],
+  "manifest_version": 2
+}
