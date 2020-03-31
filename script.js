@@ -14,8 +14,8 @@ function changePictures() {
 
 function checkImageChange() {
   const today = new Date();
-  const isFirstOfMonth = today.getDate() === 31;
-  const isApril = today.getMonth() + 1 === 3;
+  const isFirstOfMonth = today.getDate() === 1;
+  const isApril = today.getMonth() + 1 === 4;
 
   if (isFirstOfMonth && isApril) {
     changePictures();
